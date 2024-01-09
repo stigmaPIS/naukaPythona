@@ -1,0 +1,15 @@
+f = open(file="plik")
+lista = []
+lista2 =[]
+for i in f:
+    lista.append(i.strip())
+print(lista)
+-----------------------------------------------------
+plik:
+1
+1
+2
+2
+3
+3
+
